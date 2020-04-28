@@ -1,0 +1,6 @@
+<launch>
+
+	<node name="photo" pkg="photo_package" type="photomaker.py" />
+	<node name="data" pkg="photo_package" type="datacreater.py" />
+
+</launch>
